@@ -4,7 +4,7 @@ plugins {
     `maven-publish`
 }
 
-val repoUrl = "https://maven.pkg.github.com/mshockman/postgres-liquibase-init"
+val repoUrl = "https://maven.pkg.github.com/mshockman/logging-core"
 
 group = "dev.shockman.logging"
 val raw = providers.gradleProperty("releaseVersion").orNull
